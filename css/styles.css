@@ -1,0 +1,266 @@
+.hero,
+.about {
+  background-color: #f4f1e8;
+}
+
+/* .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+} */
+
+.logo {
+  border-radius: 50%;
+}
+
+.hero-title {
+  font-family: serif;
+  font-style: italic;
+  font-size: 6rem;
+  color: rgb(25, 25, 25);
+  text-decoration: none;
+  line-height: 160px;
+  letter-spacing: -0.02rem;
+}
+
+.hero-position {
+  font-family: serif;
+  font-size: 2rem;
+  color: rgb(25, 25, 25);
+  text-decoration: none;
+  letter-spacing: -0.02rem;
+}
+
+.hero-paragraph {
+  font-family: serif;
+  font-size: 1rem;
+  text-decoration: none;
+  color: rgb(25, 25, 25);
+  letter-spacing: -0.02rem;
+}
+
+.hero-title span {
+  font-style: normal;
+  color: #9b4819;
+}
+
+.hero-button {
+  background-color: #69663a;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.hero-button:hover,
+.hero-button:active {
+  background-color: #807c48;
+  color: #ffffff;
+}
+
+.profile {
+  object-fit: cover;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+}
+
+.about-title {
+  font-style: italic;
+  font-weight: 300;
+  color: #9b4819;
+}
+
+.education {
+  background-color: #f9f3e5;
+}
+
+.education-title {
+  margin-bottom: 20px;
+}
+
+.education-paragraph {
+  width: 100%;
+  border-top: 2px solid #9b4819;
+  padding-top: 10px;
+  font-size: 0.9rem;
+}
+
+.feature {
+  margin: 0 auto;
+}
+
+.feature-icon {
+  background-color: #9b4819;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.img-inner-border {
+  background-color: #9b4819;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.img-outer-border {
+  background-color: white;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+}
+
+.skill {
+  background-color: #69663a;
+}
+
+swiper-container {
+  width: 100%;
+  height: 50vh;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #69663a;
+  border-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  height: 150px;
+  object-fit: cover;
+}
+
+:root {
+  --swiper-navigation-color: #f9f3e5;
+  --swiper-pagination-color: #f9f3e5;
+}
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box;
+}
+
+/* Container for skill bars */
+.skill-container {
+  width: 100%; /* Full width */
+  background-color: #323012; /* Grey background */
+  border-radius: 10px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+}
+
+.skill-title,
+.skill-text {
+  color: #f9f3e5;
+}
+
+.percentage1 {
+  width: 80%;
+  background-color: #f9f3e5;
+  border-radius: 10px;
+}
+.percentage2 {
+  width: 90%;
+  background-color: #f9f3e5;
+  border-radius: 10px;
+}
+.percentage3 {
+  width: 90%;
+  background-color: #f9f3e5;
+  border-radius: 10px;
+}
+.percentage4 {
+  width: 93%;
+  background-color: #f9f3e5;
+  border-radius: 10px;
+}
+
+.project {
+  background-color: #f4f1e8;
+}
+
+.project-title {
+  color: #9b4819;
+  font-size: 3rem;
+}
+
+.card-img {
+  object-fit: contain;
+}
+
+.contact {
+  background-color: #323012;
+}
+
+.contact-title {
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 95px;
+}
+
+.address-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.address-container h3,
+.contact-connect {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.contact-address {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.contact-address a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.connect-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.connect-list svg {
+  width: 30px;
+  height: 30px;
+  fill: #FFFFFF;
+}
+/* 
+.connect-list svg:hover, .connect-list svg:focus {
+ fill: #f4f1e8;
+} */
+
+.contact-button {
+  background-color: #69663a;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact-button:hover, .connect-button:focus {
+  background-color: #807c48;
+  color: #ffffff;
+}
