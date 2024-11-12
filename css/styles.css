@@ -45,6 +45,27 @@
   color: #9b4819;
 }
 
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 5rem;
+    line-height: 130px
+  }
+}
+
+
+@media (max-width: 448px) {
+  .hero-title {
+    font-size: 4rem;
+    line-height: 100px
+  }
+  .hero-position {
+    font-size: 1.6rem;
+  }
+}
+
+
+
 .hero-button {
   background-color: #69663a;
   color: #ffffff;
@@ -73,6 +94,12 @@
   color: #9b4819;
 }
 
+@media (max-width: 991.9px) {
+  .about-title, .about-paragraph {
+    text-align: center;
+  }
+}
+
 .education {
   background-color: #f9f3e5;
 }
@@ -86,6 +113,12 @@
   border-top: 2px solid #9b4819;
   padding-top: 10px;
   font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .education-paragraph {
+    max-height: 33.2px;
+  }
 }
 
 .feature {
@@ -197,6 +230,7 @@ swiper-slide img {
 .card-img {
   object-fit: contain;
 }
+
 
 .contact {
   background-color: #323012;
