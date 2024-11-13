@@ -151,7 +151,7 @@
 
 swiper-container {
   width: 100%;
-  height: 50vh;
+  height: 404px;
 }
 
 swiper-slide {
@@ -256,13 +256,13 @@ swiper-slide img {
 }
 
 .contact-address {
-  color: #ffffff;
+  color: #f4f1e8;
   font-family: sans-serif;
   font-style: italic;
 }
 
 .contact-address a {
-  color: #ffffff;
+  color: #f4f1e8;
   text-decoration: none;
 }
 
@@ -281,10 +281,10 @@ swiper-slide img {
   height: 30px;
   fill: #FFFFFF;
 }
-/* 
+
 .connect-list svg:hover, .connect-list svg:focus {
  fill: #f4f1e8;
-} */
+}
 
 .contact-button {
   background-color: #69663a;

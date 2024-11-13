@@ -199,12 +199,22 @@
             class="mySwiper"
             pagination="true"
             pagination-clickable="true"
-            space-between="30"
+            space-between="10"
             loop="true"
-            slides-per-view="3"
+            slides-per-view="1"
             navigation="true"
             autoplay-delay="1000"
-            autoplay-disable-on-interaction="false"
+            autoplay-disable-on-interaction="true"
+            breakpoints='{
+              "768": {
+                "slidesPerView": 2,
+                "spaceBetween": 10
+              },
+              "1024": {
+                "slidesPerView": 3,
+                "spaceBetween": 10
+              }
+            }'
           >
             <swiper-slide
               ><img
@@ -252,7 +262,7 @@
             <div class="row">
               <div class="col-xl-3 col-sm-12">
                 <p class="lead mb-1 skill-text">
-                  Search Engine Optimization (SEO)
+                  Search Engine Optimization
                 </p>
                 <div class="skill-container">
                   <div class="skills percentage1"></div>
